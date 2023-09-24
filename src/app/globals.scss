@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-clr: 13,16,21;
+  --clr_for_case: #161B22;
+  --clr_for_brdr: #30363C;
+  --clr_blue: #476FD6;
+  --clr_green: #47D680;
+  --clr_yellow: #D6BF47;
+  --clr_prpl: #600FC8;
+  --clr_orange: #D67A47;
+
+  --html_skills: 70%;
+  --js_skills: 60%;
+  --php_skills: 30%;
+  --react_skills: 60%;
+  --next_skills: 50%;
+  --git_skills: 50%;
+  --figma_skills: 60%;
+  --css_skills: 65%;
+  --python_skills: 60%;
+
+  --blue_skill: #476FD6;
+  --green_skill: #47D680;
+  --yellow_skill: #D6BF47;
+
+
+  
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-clr));
+}
