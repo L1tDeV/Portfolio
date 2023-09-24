@@ -12,7 +12,7 @@ const Block1 = () => {
 const Block2 = () => {
     return(
         <div className={styles.box}>
-            <h2>On the internet, you may know me as <span className={styles.box_2_txt}>SmaF1</span></h2>
+            <h2>В интернете известнее как <span className={styles.box_2_txt}>SmaF1</span></h2>
         </div>
     )
 }

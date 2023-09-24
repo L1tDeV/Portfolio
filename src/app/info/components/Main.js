@@ -18,11 +18,11 @@ const Information = ({btn}) => {
     return(
         <div>
             <div className={styles.box}>
-                <h2>I am a beginner <span className={styles.green_txt}>Frontend-developer</span>. 
-            On the Internet I often use the nickname <span className={styles.yellow_txt}>SmaF1</span>. 
-            At the moment I am studying program&shy;ming languages used in web develop&shy;ment, such as <span className={styles.blue_txt}>JavaScript</span>,
-            <span className={styles.blue_txt}> React.js</span>, <span className={styles.blue_txt}>Next.js</span> and <span className={styles.blue_txt}>php</span>. 
-            I will be glad to cooperate.</h2>
+                <h2>Я начинающий <span className={styles.green_txt}>Frontend-developer</span>. 
+            В интернете я часто использую никнейм<span className={styles.yellow_txt}> SmaF1</span>. 
+            Сейчас я изучаю языки програм&shy;мирования, используемые в web-разработке, такие как <span className={styles.blue_txt}>JavaScript</span>,
+            <span className={styles.blue_txt}> React.js</span>, <span className={styles.blue_txt}>Next.js</span> и <span className={styles.blue_txt}>php</span>. 
+            Буду рад сотрудничеству.</h2>
                 {btn}
             </div>
         </div>
@@ -121,7 +121,7 @@ const Main = () =>{
     const [position, usePosition] = useState(true)
     return (
         <main>
-            {position && <AboutMe btn={<button className={styles.go_btn} onClick={() => usePosition(!position)}>Read More</button>} />}
+            {position && <AboutMe btn={<button className={styles.go_btn} onClick={() => usePosition(!position)}>Читать больше</button>} />}
             {!position && <Achivements btn={<div className={styles.back}><button className={styles.back_btn} onClick={() => usePosition(!position)}><img src='/back.png' className={styles.btn_img} /></button></div>} />}
         </main>
     )
