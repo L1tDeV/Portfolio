@@ -22,7 +22,7 @@ const Information = ({btn}) => {
             В интернете я часто использую никнейм<span className={styles.yellow_txt}> SmaF1</span>. 
             Сейчас я изучаю языки програм&shy;мирования, используемые в web-разработке, такие как <span className={styles.blue_txt}>JavaScript</span>,
             <span className={styles.blue_txt}> React.js</span>, <span className={styles.blue_txt}>Next.js</span> и <span className={styles.blue_txt}>php</span>. 
-            Буду рад сотрудничеству.</h2>
+            Буду рад сотрудни&shy;честву.</h2>
                 {btn}
             </div>
         </div>
