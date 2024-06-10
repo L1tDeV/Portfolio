@@ -59,6 +59,15 @@ const Olimps = () => {
             <div className={styles.ach}>
                 <h2>Финалист НТО по профилю <span className={styles.blue_txt}>“Финансовый инжиниринг”</span> (2023 г.)</h2>
             </div>
+            <div className={styles.ach}>
+                <h2>Финалист НТО по профилю <span className={styles.blue_txt}>“Автоматизация бизнес-процессов”</span> (2024 г.)</h2>
+            </div>
+            <div className={styles.ach}>
+                <h2>Финалист НТО по профилю <span className={styles.blue_txt}>“Искусственный интеллект”</span> (2024 г.)</h2>
+            </div>
+            <div className={styles.ach}>
+                <h2>Финалист НТО по профилю <span className={styles.blue_txt}>“Программная инженерия в финансовых технологиях”</span> (2024 г.)</h2>
+            </div>
             <a href='https://ntcontest.ru/'><button className={styles.nto_btn}>Что такое НТО?</button></a>
         </div>
     )
@@ -69,7 +78,7 @@ const Education = () => {
         <div className={styles.box_ach}>
             <h1>Образо&shy;вание</h1>
             <div className={styles.ach}>
-                <h2>Основное-общее <span className={styles.green_txt}>ГОУ ЯО СШ №33</span></h2>
+                <h2>Среднее-общее (предварительно красный аттестат) <span className={styles.green_txt}>ГОУ ЯО СШ №33</span></h2>
             </div>
         </div>
     )
@@ -87,6 +96,15 @@ const Konkurs = () => {
             </div>
             <div className={styles.ach}>
                 <h2>“Искуствен&shy;ный интеллект” - <span className={styles.orange_txt}>призер</span> (2023 г.)</h2>
+            </div>
+            <div className={styles.ach}>
+                <h2>“Инженерия” - <span className={styles.yellow_txt}>победитель</span> (2024 г.)</h2>
+            </div>
+            <div className={styles.ach}>
+                <h2>“Програм&shy;мирование” - <span className={styles.yellow_txt}>победитель</span> (2024 г.)</h2>
+            </div>
+            <div className={styles.ach}>
+                <h2>“Разработка бизнес-приложений” - <span className={styles.yellow_txt}>победитель</span> (2024 г.)</h2>
             </div>
         </div>
     )
