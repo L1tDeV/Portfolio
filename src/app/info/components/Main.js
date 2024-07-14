@@ -78,7 +78,7 @@ const Education = () => {
         <div className={styles.box_ach}>
             <h1>Образо&shy;вание</h1>
             <div className={styles.ach}>
-                <h2>Среднее-общее (предварительно красный аттестат) <span className={styles.green_txt}>ГОУ ЯО СШ №33</span></h2>
+                <h2>Среднее-общее (Красный аттестат) <span className={styles.green_txt}>ГОУ ЯО СШ №33</span></h2>
             </div>
         </div>
     )
