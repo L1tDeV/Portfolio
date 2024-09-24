@@ -80,6 +80,9 @@ const Education = () => {
             <div className={styles.ach}>
                 <h2>Среднее-общее (Красный аттестат) <span className={styles.green_txt}>ГОУ ЯО СШ №33</span></h2>
             </div>
+            <div className={styles.ach}>
+                <h2>Студент факультета ИКТ <span className={styles.green_txt}> университета ИТМО</span></h2>
+            </div>
         </div>
     )
 }
