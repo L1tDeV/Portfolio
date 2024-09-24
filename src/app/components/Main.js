@@ -30,7 +30,7 @@ const Contact = () => {
                 <a href='mailto:smaf1_1@mail.ru' target='_blank'><img src='/mail.svg'/></a>
             </div>
             <div className={styles.el_tble}>
-                <a href='https://github.com/SmaF1-dev' target='_blank'><img src='/git.svg'/></a>
+                <a href='https://github.com/L1tDeV' target='_blank'><img src='/git.svg'/></a>
             </div>
         </div>
     )
