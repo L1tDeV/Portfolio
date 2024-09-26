@@ -19,7 +19,7 @@ const Information = ({btn}) => {
         <div>
             <div className={styles.box}>
                 <h2>Я начи&shy;нающий <span className={styles.green_txt}>Frontend-developer</span>. 
-            В интернете я часто использую никнейм<span className={styles.yellow_txt}> SmaF1</span>. 
+            В интернете я часто использую никнейм<span className={styles.yellow_txt}> L1tDeV</span>. 
             Сейчас я изучаю языки програм&shy;мирования, исполь&shy;зуемые в web-&shy;разработке, такие как <span className={styles.blue_txt}>JavaScript</span>,
             <span className={styles.blue_txt}> React.js</span>, <span className={styles.blue_txt}>Next.js</span> и <span className={styles.blue_txt}>php</span>. 
             Буду рад сотрудни&shy;честву.</h2>
